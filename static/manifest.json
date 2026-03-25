@@ -1,0 +1,21 @@
+{
+  "name": "SUDO HEX Cyber Dashboard",
+  "short_name": "SUDO HEX",
+  "description": "SUDO HEX Network Intrusion Detection System Dashboard",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#00ffaa",
+  "icons": [
+    {
+      "src": "/static/images/nids_app_icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/images/nids_app_icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

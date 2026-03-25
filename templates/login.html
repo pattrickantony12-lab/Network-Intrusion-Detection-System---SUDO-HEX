@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <div class="auth-box glass-panel">
+        <h2>System Access</h2>
+        <p class="subtitle">Secure SUDO HEX Login</p>
+        <form method="POST" action="{{ url_for('login') }}">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn neon-btn-large">Authenticate</button>
+        </form>
+        <div class="auth-footer">
+            <p>New operator? <a href="{{ url_for('register') }}" class="cyber-link">Register Account</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}

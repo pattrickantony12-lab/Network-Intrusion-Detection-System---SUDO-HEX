@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}SUDO HEX - Dashboard{% endblock %} | CyberSec</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#00ffaa">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="/static/images/nids_app_icon.png">
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.3/socket.io.js"></script>
+</head>
+<body class="dark-theme">
+    <nav class="navbar">
+        <div class="logo">
+            <span class="neon-text">SUDO HEX</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            {% if session.get('user_id') %}
+            <li><a href="{{ url_for('dashboard') }}" class="btn neon-btn">Dashboard</a></li>
+            <li><a href="{{ url_for('logout') }}" class="btn ghost-btn">Logout</a></li>
+            {% else %}
+            <li><a href="{{ url_for('login') }}" class="btn ghost-btn">Login</a></li>
+            <li><a href="{{ url_for('register') }}" class="btn neon-btn">Register</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    <main>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            <div class="flash-messages">
+              {% for category, message in messages %}
+                <div class="flash-{{ category }}">{{ message }}</div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </main>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(reg => console.log('Service Worker Registered'))
+                    .catch(err => console.log('Service Worker Error', err));
+            });
+        }
+    </script>
+</body>
+</html>

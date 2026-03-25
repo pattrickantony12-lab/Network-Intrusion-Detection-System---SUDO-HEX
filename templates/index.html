@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+<section class="hero-section">
+    <div class="hero-content">
+        <h1 class="glitch-text" data-text="Network Intrusion Detection System">Network Intrusion Detection System</h1>
+        <p class="subtitle">Real-time threat monitoring and cybersecurity dashboard built for modern networks.</p>
+        
+        <div class="features-grid">
+            <div class="feature-card glass-panel">
+                <div class="icon">🔍</div>
+                <h3>Traffic Monitoring</h3>
+                <p>Live tracking of network packets including TCP, UDP, and HTTP protocols.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="icon">🛡️</div>
+                <h3>Threat Detection</h3>
+                <p>Instant identification of DoS, Port Scans, and Malware Traffic patterns.</p>
+            </div>
+
+            <div class="feature-card glass-panel">
+                <div class="icon">📊</div>
+                <h3>Data Analytics</h3>
+                <p>Comprehensive visualizations of network health and incident logs.</p>
+            </div>
+        </div>
+
+        <div class="cta-buttons">
+            <a href="{{ url_for('login') }}" class="btn neon-btn-large">Access System</a>
+            <a href="{{ url_for('register') }}" class="btn ghost-btn-large">Create Account</a>
+        </div>
+    </div>
+    <div class="animated-bg">
+        <!-- Canvas animation container -->
+        <canvas id="network-canvas"></canvas>
+    </div>
+</section>
+{% endblock %}

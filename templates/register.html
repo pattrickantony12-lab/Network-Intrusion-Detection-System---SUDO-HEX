@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <div class="auth-box glass-panel">
+        <h2>Register Node</h2>
+        <p class="subtitle">Create Secure Administrator Account</p>
+        <form method="POST" action="{{ url_for('register') }}">
+            <div class="input-group">
+                <label for="username">Operator ID (Username)</label>
+                <input type="text" id="username" name="username" required autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label for="password">Passphrase</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn neon-btn-large" style="width: 100%; margin-top: 1rem;">Register Node</button>
+        </form>
+        <div class="auth-footer">
+            <p>Already an operator? <a href="{{ url_for('login') }}" class="cyber-link">Login here</a></p>
+            <p style="margin-top: 0.5rem;"><a href="{{ url_for('home') }}" class="cyber-link">Back to Gateway</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}

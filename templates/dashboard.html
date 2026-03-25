@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block title %}SOC Dashboard{% endblock %}
+
+{% block content %}
+<div class="dashboard-header text-center">
+    <h2><span class="neon-text">SUDO HEX</span> Security Operations Center (SOC)</h2>
+    <p>Logged in as operator: [{{ username }}]</p>
+</div>
+
+<div class="dashboard-controls" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding: 0 3rem; margin-bottom: 2rem;">
+
+
+    <div style="display: flex; gap: 0.8rem;">
+        <a href="{{ url_for('download_report') }}" class="btn neon-btn" style="padding: 0.6rem 1rem;"><i class="icon">📄</i> REPORT</a>
+        <a href="{{ url_for('download_log') }}" class="btn ghost-btn" style="padding: 0.6rem 1rem;"><i class="icon">⬇</i> LOGS</a>
+        <a href="{{ url_for('clear_db') }}" class="btn ghost-btn" style="padding: 0.6rem 1rem; color: #ff3366; border-color: rgba(255, 51, 102, 0.3);" onclick="return confirm('WARNING: This will permanently delete all forensic logs. Continue?');"><i class="icon">🗑</i> CLEAR DB</a>
+        <a href="{{ url_for('logout') }}" class="btn ghost-btn" style="padding: 0.6rem 1rem;"><i class="icon">❌</i> EXIT</a>
+    </div>
+<div class="threat-alert-banner glass-panel" id="threat-indicator-box">
+    <div class="threat-status-label">LIVE SYSTEM STATUS:</div>
+    <div class="threat-display" id="current-threat-label">NO THREATS DETECTED</div>
+    <div class="threat-meta" id="threat-meta-info">System Scanning Clean...</div>
+</div>
+
+<div class="dashboard-grid">
+    <!-- Charts Section -->
+    <div class="panel glass-panel">
+        <h3>Threat Distribution</h3>
+        <div class="chart-container">
+            <canvas id="attackPieChart"></canvas>
+        </div>
+    </div>
+    
+    <div class="panel glass-panel">
+        <h3>Network Activity Over Time</h3>
+        <div class="chart-container">
+            <canvas id="activityBarChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Live Monitoring Panel -->
+    <div class="panel glass-panel full-width">
+        <div class="panel-header">
+            <h3>Live Packet Analysis</h3>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <span class="badge peak-badge">PEAK ACCURACY</span>
+                <span class="status-indicator">
+                    <span class="dot blinking"></span> Monitoring (4s)
+                </span>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="cyber-table">
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Protocol</th>
+                        <th>OSI Layer</th>
+                        <th>Severity</th>
+                        <th>Source IP</th>
+                        <th>Destination IP</th>
+                        <th>Confidence</th>
+                        <th>Threat Analysis</th>
+                    </tr>
+                </thead>
+                <tbody id="live-packet-table">
+                    <!-- Javascript will populate rows -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
