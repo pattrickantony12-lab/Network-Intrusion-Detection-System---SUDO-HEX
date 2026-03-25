@@ -39,7 +39,7 @@ pip install -r requirements.txt
 4. Run the Application
 python app.py
 5. Open in Browser
-http://127.0.0.1:5000/
+
 ________________________________________
 🧠 How It Works
 1.	Network packets are simulated or captured.
