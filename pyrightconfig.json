@@ -1,0 +1,13 @@
+{
+    "venvPath": "e:/Project NIDS",
+    "venv": ".venv",
+    "pythonVersion": "3.13",
+    "extraPaths": [
+        "e:/Project NIDS",
+        "e:/Project NIDS/.venv/Lib/site-packages"
+    ],
+    "typeCheckingMode": "basic",
+    "reportCallIssue": "none",
+    "reportAttributeAccessIssue": "none",
+    "reportOperatorIssue": "none"
+}

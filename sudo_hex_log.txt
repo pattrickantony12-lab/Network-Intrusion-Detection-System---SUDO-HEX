@@ -1,0 +1,440 @@
+SUDO HEX LOG - ANALYSIS SESSION STARTED
+Session Start: 2026-03-07 18:03:45
+==================================================
+[2026-03-07 18:03:45] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 103.35.160.99 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:03:49] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.57 -> DST: 192.168.1.1 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:03:53] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 185.156.113.34 -> DST: 192.168.1.8 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:03:57] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 45.74.243.191 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-07 18:04:01] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 45.60.75.43 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:04:05] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 45.45.184.174 -> DST: 192.168.1.5 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:04:09] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 185.189.87.183 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-07 18:04:13] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 103.140.172.97 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:04:18] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 212.193.107.199 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-07 18:04:22] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.50 -> DST: 192.168.1.1 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:04:26] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 77.30.56.11 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-07 18:04:30] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.138 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:04:34] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 91.33.186.40 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-07 18:04:38] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 103.222.154.18 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-07 18:04:42] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 45.51.140.55 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-07 18:04:46] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 103.107.152.167 -> DST: 192.168.1.10 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:04:50] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 185.216.228.228 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-07 18:04:54] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 212.42.120.107 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-07 18:04:58] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 91.170.198.133 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-07 18:05:02] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 185.194.233.125 -> DST: 192.168.1.18 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:05:06] PROTOCOL: UDP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 45.188.207.175 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-07 18:05:10] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 212.31.163.49 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-07 18:05:14] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.111 -> DST: 192.168.1.9 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:05:18] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 212.139.107.146 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-07 18:05:22] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 77.182.88.207 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:05:26] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 91.54.248.204 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:05:30] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 103.244.172.103 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-07 18:05:34] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 185.153.98.32 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:05:38] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 185.93.119.53 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:05:42] PROTOCOL: ICMP | OSI: Layer 6 - Presentation | LAYER: Network | SRC: 103.240.235.221 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-07 18:05:46] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 212.20.250.166 -> DST: 192.168.1.13 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:05:50] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.234 -> DST: 192.168.1.12 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:05:54] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.164 -> DST: 192.168.1.15 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:05:58] PROTOCOL: HTTP | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 77.221.241.35 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-07 18:16:54] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.249 -> DST: 192.168.1.15 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:16:58] PROTOCOL: ICMP | OSI: Layer 6 - Presentation | LAYER: Network | SRC: 77.193.232.244 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-07 18:17:02] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 212.47.226.32 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:17:06] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 103.147.244.244 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-07 18:17:10] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 45.224.244.170 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:17:14] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 212.155.236.105 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:17:18] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 212.68.116.95 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-07 18:17:22] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 91.196.13.135 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-07 18:17:26] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 212.48.139.82 -> DST: 192.168.1.16 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:17:35] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.237 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:17:39] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.57 -> DST: 192.168.1.8 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:17:43] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.139 -> DST: 192.168.1.20 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:26:10] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.83 -> DST: 192.168.1.15 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:26:14] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 45.86.225.50 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:26:18] PROTOCOL: HTTP | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 185.45.156.243 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-07 18:26:22] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 45.110.31.109 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-07 18:26:37] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 212.102.219.254 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-07 18:26:41] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 45.209.20.118 -> DST: 192.168.1.20 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:26:45] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 45.31.105.118 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-07 18:26:49] PROTOCOL: HTTPS | OSI: Layer 5 - Session | LAYER: Application | SRC: 185.62.149.242 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-07 18:26:53] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 77.152.228.250 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-07 18:26:57] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 103.29.33.67 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:27:01] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 77.93.244.85 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-07 18:27:05] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 91.71.177.143 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-07 18:27:09] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 142.21.91.230 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:27:13] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 185.79.198.145 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:27:17] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 142.100.177.229 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:27:21] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 212.21.191.117 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-07 18:27:25] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 77.28.244.167 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:27:29] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 185.76.156.131 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-07 18:27:33] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.99 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:28:54] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 77.120.123.217 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-07 18:28:58] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.2 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:29:02] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 212.159.255.58 -> DST: 192.168.1.11 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:29:11] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 91.60.72.244 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-07 18:29:16] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.15 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:29:20] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 142.29.251.50 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:29:24] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.141 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:29:28] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 103.79.134.242 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-07 18:29:32] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 212.226.151.18 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-07 18:29:36] PROTOCOL: UDP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 91.196.5.96 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-07 18:29:40] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 77.178.85.84 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-07 18:29:44] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.112 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:47:49] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 185.112.95.115 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:47:53] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 103.175.92.20 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:47:57] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 45.67.166.4 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:48:01] PROTOCOL: HTTPS | OSI: Layer 5 - Session | LAYER: Application | SRC: 103.193.227.145 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:48:05] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.189 -> DST: 192.168.1.12 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:48:09] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.199 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:48:13] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 185.143.65.189 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:48:17] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 185.220.114.112 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:48:21] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 45.153.110.125 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:48:25] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 91.102.226.35 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:48:29] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.86 -> DST: 192.168.1.10 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:48:33] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 142.37.70.72 -> DST: 192.168.1.1 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:48:37] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 45.23.66.125 -> DST: 192.168.1.17 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:48:41] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 91.238.170.244 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:48:45] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 77.26.81.18 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:48:49] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 77.229.209.61 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:48:53] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 77.75.204.191 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:48:57] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 212.107.128.143 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:49:01] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.159 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:49:05] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.154 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:49:09] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 185.237.119.11 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:49:13] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.177 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:49:17] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.150 -> DST: 192.168.1.8 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:49:21] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 212.146.3.122 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:49:25] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 77.40.192.99 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:49:29] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.126 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:49:33] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 91.111.250.64 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:49:37] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 91.142.155.27 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:49:41] PROTOCOL: UDP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 103.39.202.134 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:49:45] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 142.107.120.124 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:49:49] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 185.228.9.57 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:49:53] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 212.33.128.212 -> DST: 192.168.1.17 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:49:57] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.139 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:50:01] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 91.154.201.23 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:50:05] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 185.74.249.150 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:50:09] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.194 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:50:13] PROTOCOL: UDP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 185.228.131.168 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:50:17] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.250 -> DST: 192.168.1.13 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:50:21] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 142.192.167.194 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:50:25] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 185.75.66.59 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:50:29] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.164 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:50:33] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 142.215.16.54 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:50:37] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.233 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:50:41] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 77.162.185.181 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:50:45] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 77.82.37.134 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:50:49] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 185.143.141.126 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:50:53] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.33 -> DST: 192.168.1.5 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:50:57] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 77.152.215.7 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:51:02] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 45.188.244.17 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:51:06] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.60 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:51:10] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 103.52.89.145 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:51:14] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 212.25.123.23 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:51:18] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 212.137.34.24 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:51:22] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.13 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:51:26] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 142.165.174.9 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:51:30] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 45.89.205.93 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:51:34] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 103.191.144.104 -> DST: 192.168.1.10 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:51:38] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.187 -> DST: 192.168.1.11 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:51:42] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 212.213.162.129 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:51:46] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 212.219.186.123 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:51:50] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.83 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:51:54] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.136 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:51:58] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.161 -> DST: 192.168.1.10 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:52:02] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 212.36.20.182 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:52:06] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 103.118.183.156 -> DST: 192.168.1.5 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:52:10] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.38 -> DST: 192.168.1.12 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:52:14] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 77.73.79.49 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:52:18] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 103.222.58.216 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:52:22] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.138 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:52:26] PROTOCOL: ICMP | OSI: Layer 6 - Presentation | LAYER: Network | SRC: 91.41.219.90 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:52:30] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 185.162.5.101 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:52:34] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.158 -> DST: 192.168.1.1 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:52:38] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 185.114.154.254 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:52:42] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 77.202.218.35 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:52:46] PROTOCOL: UDP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 185.52.186.225 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:52:50] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 77.101.31.244 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:52:54] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 103.210.228.207 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:52:58] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 103.78.140.182 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:53:02] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 142.208.75.106 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:53:06] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 142.141.60.249 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:53:10] PROTOCOL: UDP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 103.187.124.63 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:53:14] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 77.133.181.7 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:53:19] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 103.149.193.230 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:53:23] PROTOCOL: HTTP | OSI: Layer 5 - Session | LAYER: Application | SRC: 103.126.177.235 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:53:28] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 91.242.115.85 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:53:33] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.100 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:53:37] PROTOCOL: UDP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 103.74.207.145 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:53:42] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 212.147.202.137 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:53:46] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.235 -> DST: 192.168.1.17 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:53:50] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 77.12.24.140 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:53:54] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 91.28.3.30 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:53:59] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 212.139.50.123 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:54:03] PROTOCOL: HTTPS | OSI: Layer 5 - Session | LAYER: Application | SRC: 91.184.11.14 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:54:07] PROTOCOL: HTTP | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 103.72.164.176 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 00:54:11] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 103.251.31.27 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:54:15] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 212.55.165.11 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:54:19] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 45.161.6.175 -> DST: 192.168.1.7 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-08 00:54:23] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 103.64.226.124 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:54:27] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 212.17.86.82 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:54:31] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 45.134.92.204 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:54:35] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 77.162.48.124 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:54:39] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 212.184.177.69 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:54:43] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 45.35.99.184 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:54:47] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.136 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:54:51] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.80 -> DST: 192.168.1.9 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:54:55] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.124 -> DST: 192.168.1.6 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:54:59] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 103.200.205.127 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 00:55:03] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 103.200.2.241 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:55:07] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 91.207.235.51 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-08 00:55:11] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 212.149.211.10 -> DST: 192.168.1.6 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:55:15] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 185.176.232.47 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 00:55:19] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 45.187.22.82 -> DST: 192.168.1.6 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:55:23] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.192 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:55:27] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 142.226.125.61 -> DST: 192.168.1.7 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 00:55:31] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 185.141.119.79 -> DST: 192.168.1.12 | ATTACK: Normal | MALICIOUS: False
+[2026-03-08 01:22:17] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 77.210.145.48 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 01:22:21] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 212.201.249.124 -> DST: 192.168.1.7 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-08 01:22:25] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 77.41.82.63 -> DST: 192.168.1.7 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-08 01:33:56] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 212.151.169.95 -> DST: 192.168.1.7 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-08 01:34:00] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 103.238.96.110 -> DST: 192.168.1.7 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-16 00:11:28] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 77.20.3.4 -> DST: 192.168.1.2 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-16 00:11:32] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 45.23.204.8 -> DST: 192.168.1.2 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-16 00:11:36] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 103.217.214.68 -> DST: 192.168.1.2 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-16 00:11:40] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 185.180.226.31 -> DST: 192.168.1.2 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-16 00:11:44] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 142.228.250.216 -> DST: 192.168.1.2 | ATTACK: Normal | MALICIOUS: False
+[2026-03-16 00:11:48] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 45.248.11.109 -> DST: 192.168.1.2 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-16 00:11:52] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.4 -> DST: 192.168.1.4 | ATTACK: Normal | MALICIOUS: False
+[2026-03-16 00:11:56] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 45.118.234.251 -> DST: 192.168.1.2 | ATTACK: Normal | MALICIOUS: False
+[2026-03-16 00:12:00] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 185.116.61.202 -> DST: 192.168.1.2 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-16 00:12:04] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.34 -> DST: 192.168.1.2 | ATTACK: Normal | MALICIOUS: False
+[2026-03-16 00:12:08] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 45.194.199.27 -> DST: 192.168.1.2 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-16 00:12:12] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 185.55.235.14 -> DST: 192.168.1.2 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-16 00:12:16] PROTOCOL: UDP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 103.247.240.94 -> DST: 192.168.1.2 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-16 00:12:20] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 77.13.67.251 -> DST: 192.168.1.2 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-16 00:12:24] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 103.102.109.135 -> DST: 192.168.1.2 | ATTACK: Normal | MALICIOUS: False
+[2026-03-16 00:12:28] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 212.115.80.123 -> DST: 192.168.1.2 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-16 00:12:32] PROTOCOL: HTTPS | OSI: Layer 5 - Session | LAYER: Application | SRC: 91.11.184.23 -> DST: 192.168.1.2 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-16 00:12:36] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 45.56.43.27 -> DST: 192.168.1.2 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-16 00:12:40] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 185.51.156.54 -> DST: 192.168.1.2 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-16 00:12:44] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.179 -> DST: 192.168.1.2 | ATTACK: Normal | MALICIOUS: False
+[2026-03-16 00:12:48] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 91.222.223.241 -> DST: 192.168.1.2 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-24 23:53:07] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.125 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:53:11] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 91.54.175.5 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:53:15] PROTOCOL: UDP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 103.20.212.44 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:53:19] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.231 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:53:23] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 77.59.194.120 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:53:27] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.249 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:53:31] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 45.10.45.181 -> DST: 192.168.1.3 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-24 23:53:35] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 142.245.132.124 -> DST: 192.168.1.5 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:53:39] PROTOCOL: ICMP | OSI: Layer 6 - Presentation | LAYER: Network | SRC: 212.46.60.213 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:53:44] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 185.166.210.5 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:53:48] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.98 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:53:52] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 91.104.116.108 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:53:56] PROTOCOL: ICMP | OSI: Layer 6 - Presentation | LAYER: Network | SRC: 77.127.119.93 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:54:00] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.175 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:54:04] PROTOCOL: HTTP | OSI: Layer 5 - Session | LAYER: Application | SRC: 45.212.229.230 -> DST: 192.168.1.3 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-24 23:54:08] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 103.217.251.33 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:54:12] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.10 -> DST: 192.168.1.6 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:54:16] PROTOCOL: UDP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 212.188.145.231 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:54:20] PROTOCOL: ICMP | OSI: Layer 6 - Presentation | LAYER: Network | SRC: 103.199.121.137 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:54:24] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.119 -> DST: 192.168.1.17 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:54:28] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 91.58.215.31 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:54:32] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 103.161.185.97 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:54:36] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 212.31.210.28 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:54:40] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 103.160.131.44 -> DST: 192.168.1.8 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:54:44] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 45.195.93.64 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:54:48] PROTOCOL: ICMP | OSI: Layer 6 - Presentation | LAYER: Network | SRC: 103.17.72.49 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:54:52] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 91.152.234.78 -> DST: 192.168.1.3 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-24 23:54:56] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 91.240.102.57 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:55:00] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 77.37.56.237 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:55:04] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 91.175.16.75 -> DST: 192.168.1.3 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-24 23:55:08] PROTOCOL: UDP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 91.140.0.32 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:55:12] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 91.71.79.97 -> DST: 192.168.1.3 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-24 23:55:16] PROTOCOL: HTTP | OSI: Layer 5 - Session | LAYER: Application | SRC: 45.249.162.224 -> DST: 192.168.1.3 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-24 23:55:21] PROTOCOL: HTTPS | OSI: Layer 5 - Session | LAYER: Application | SRC: 77.68.43.158 -> DST: 192.168.1.3 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-24 23:55:25] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 45.44.91.61 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:55:29] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.132 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:55:33] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 45.209.13.213 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:55:37] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 212.229.166.43 -> DST: 192.168.1.3 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-24 23:55:41] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.130 -> DST: 192.168.1.16 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:55:45] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 103.149.34.250 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:55:49] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 91.54.92.22 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:55:53] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 91.88.247.240 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:55:57] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 212.188.196.195 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:56:01] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 103.100.212.230 -> DST: 192.168.1.8 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:56:05] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 91.111.133.121 -> DST: 192.168.1.3 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-24 23:56:09] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 77.190.137.145 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:56:13] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 91.76.30.144 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:56:17] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.79 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:56:21] PROTOCOL: HTTP | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 91.207.184.227 -> DST: 192.168.1.3 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-24 23:56:25] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 103.188.251.135 -> DST: 192.168.1.3 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-24 23:56:29] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 91.121.12.136 -> DST: 192.168.1.3 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-24 23:56:33] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 212.238.205.41 -> DST: 192.168.1.3 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-24 23:56:37] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 77.159.226.113 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:56:41] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.194 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:56:45] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 142.56.132.113 -> DST: 192.168.1.18 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:56:49] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 185.221.50.188 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:56:53] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 212.175.225.42 -> DST: 192.168.1.2 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:56:57] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 77.27.49.6 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:57:02] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.209 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:57:06] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 45.164.184.102 -> DST: 192.168.1.3 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-24 23:57:10] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.232 -> DST: 192.168.1.4 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:57:14] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.105 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:57:18] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 45.227.205.245 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:57:22] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 185.157.238.194 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-24 23:57:26] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 103.102.216.163 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-24 23:57:30] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 91.161.21.132 -> DST: 192.168.1.3 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:29:04] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.223 -> DST: 192.168.1.5 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:29:08] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 185.221.182.84 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:29:12] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 45.38.79.40 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:29:16] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 45.224.26.146 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:29:20] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 212.21.2.2 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:29:24] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 45.161.141.116 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:29:28] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 185.101.145.19 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:29:32] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.26 -> DST: 192.168.1.4 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:29:36] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 77.246.200.94 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:29:40] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 45.208.82.189 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:29:44] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 212.15.166.191 -> DST: 192.168.1.20 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:29:48] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 77.236.63.192 -> DST: 192.168.1.17 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:29:52] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 212.121.214.25 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:29:56] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.126 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:30:00] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 212.45.23.14 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:30:04] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 212.122.161.251 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:30:08] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 45.197.206.132 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:30:12] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.51 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:30:16] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 185.30.236.169 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:30:20] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 103.119.45.32 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:30:24] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.62 -> DST: 192.168.1.14 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:30:28] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 185.121.214.189 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:30:33] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 212.214.132.231 -> DST: 192.168.1.20 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:30:37] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 45.185.180.228 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:30:41] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 212.52.164.193 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:30:45] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 45.14.172.51 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:30:49] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.239 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:30:53] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 142.197.173.118 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:30:57] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.150 -> DST: 192.168.1.10 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:31:01] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 103.49.155.55 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:31:05] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 45.103.198.233 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:31:09] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 103.119.208.99 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:31:13] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 103.141.92.213 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:31:17] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.65 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:31:21] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 212.31.180.224 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:31:25] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.36 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:31:29] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 103.180.101.159 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:31:33] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 212.133.118.228 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:31:37] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.249 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:31:41] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 77.34.6.98 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:31:45] PROTOCOL: ICMP | OSI: Layer 5 - Session | LAYER: Network | SRC: 185.243.223.192 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:31:49] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 45.58.7.142 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:37:15] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 103.226.87.142 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:37:20] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 185.213.57.7 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:37:24] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 77.241.216.92 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:37:28] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 103.113.15.92 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:37:32] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 91.162.96.242 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:37:36] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.177 -> DST: 192.168.1.20 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:37:40] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 77.135.249.146 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:37:44] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 91.39.233.4 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:37:48] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 185.80.180.69 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:37:52] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 212.133.164.198 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:37:56] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.199 -> DST: 192.168.1.9 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:38:00] PROTOCOL: HTTP | OSI: Layer 5 - Session | LAYER: Application | SRC: 212.50.145.118 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:38:04] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 212.217.19.86 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:38:08] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 45.252.99.184 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:38:12] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.119 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:38:16] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 212.31.250.63 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:38:21] PROTOCOL: HTTP | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 212.185.97.179 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:38:25] PROTOCOL: HTTPS | OSI: Layer 5 - Session | LAYER: Application | SRC: 103.50.10.38 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:38:29] PROTOCOL: HTTPS | OSI: Layer 5 - Session | LAYER: Application | SRC: 103.189.215.91 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:38:33] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.7 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:38:37] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 185.25.222.3 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:38:41] PROTOCOL: HTTPS | OSI: Layer 4 - Transport | LAYER: Application | SRC: 212.217.152.83 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:38:45] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 77.81.217.4 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:38:49] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.176 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:38:53] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.220 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:38:57] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 212.178.174.174 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:39:01] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.84 -> DST: 192.168.1.10 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:39:05] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 212.36.254.156 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:39:09] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 91.124.200.225 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:39:13] PROTOCOL: HTTP | OSI: Layer 5 - Session | LAYER: Application | SRC: 91.197.196.73 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:39:17] PROTOCOL: ICMP | OSI: Layer 4 - Transport | LAYER: Network | SRC: 77.13.135.47 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:39:21] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.5 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:39:25] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 103.139.237.218 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:39:29] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.96 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:39:33] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 185.86.141.15 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:39:38] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.75 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:39:42] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 91.201.122.54 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:39:46] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.214 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:39:50] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 77.49.170.226 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:39:54] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 103.86.240.230 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:39:58] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 212.40.116.131 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:40:02] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.232 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:40:06] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 142.45.96.11 -> DST: 192.168.1.4 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:40:10] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 212.219.103.10 -> DST: 192.168.1.20 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:40:14] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.15 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:40:18] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 45.120.81.164 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:40:22] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 91.227.28.142 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:40:26] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.88 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:40:30] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 212.138.8.136 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:40:34] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.209 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:40:38] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 212.65.229.37 -> DST: 192.168.1.9 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:40:42] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 77.106.0.179 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:40:46] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 45.75.192.249 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:40:50] PROTOCOL: TCP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 212.208.71.133 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:40:55] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.125 -> DST: 192.168.1.1 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:40:59] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.75 -> DST: 192.168.1.6 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:41:03] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.205 -> DST: 192.168.1.5 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:41:07] PROTOCOL: HTTPS | OSI: Layer 5 - Session | LAYER: Application | SRC: 185.68.102.88 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:41:11] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 77.107.153.62 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:41:15] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 185.240.205.171 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:41:19] PROTOCOL: HTTP | OSI: Layer 4 - Transport | LAYER: Application | SRC: 212.60.196.25 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:41:23] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 45.121.46.32 -> DST: 192.168.1.10 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:41:27] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 91.25.166.194 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:41:31] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 91.27.145.171 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:41:35] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 142.16.167.3 -> DST: 192.168.1.16 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:41:39] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 142.180.101.232 -> DST: 192.168.1.12 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:41:43] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 45.69.244.97 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:41:47] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 91.135.176.234 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:41:51] PROTOCOL: HTTP | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 91.205.90.214 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:41:55] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 185.154.223.134 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:41:59] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 185.141.112.74 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:42:04] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.237 -> DST: 192.168.1.16 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:42:08] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 212.111.8.246 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:42:12] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 185.26.248.62 -> DST: 192.168.1.13 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:42:16] PROTOCOL: ICMP | OSI: Layer 7 - Application | LAYER: Network | SRC: 103.239.113.79 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:42:20] PROTOCOL: ICMP | OSI: Layer 6 - Presentation | LAYER: Network | SRC: 103.113.244.75 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:42:24] PROTOCOL: HTTPS | OSI: Layer 7 - Application | LAYER: Application | SRC: 77.168.158.225 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:42:28] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.201 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:42:32] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 185.188.115.207 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:42:36] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.9 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:42:40] PROTOCOL: UDP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 103.156.235.89 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:42:44] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.195 -> DST: 192.168.1.10 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:42:48] PROTOCOL: UDP | OSI: Layer 6 - Presentation | LAYER: Transport | SRC: 103.234.160.167 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:42:52] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 77.255.44.111 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:42:56] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 185.54.125.157 -> DST: 192.168.1.12 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:00] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 103.81.19.124 -> DST: 192.168.1.19 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:04] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.252 -> DST: 192.168.1.6 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:08] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.54 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:12] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 212.152.161.94 -> DST: 192.168.1.1 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:16] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 192.168.1.66 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:20] PROTOCOL: TCP | OSI: Layer 7 - Application | LAYER: Transport | SRC: 91.137.234.92 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:43:24] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.210 -> DST: 192.168.1.8 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:28] PROTOCOL: TCP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 91.103.214.254 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:43:32] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.83 -> DST: 192.168.1.12 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:36] PROTOCOL: TCP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 212.121.162.165 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:43:40] PROTOCOL: ICMP | OSI: Layer 6 - Presentation | LAYER: Network | SRC: 185.62.141.252 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
+[2026-03-25 09:43:45] PROTOCOL: HTTPS | OSI: Layer 5 - Session | LAYER: Application | SRC: 91.234.136.153 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:43:49] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 77.107.226.183 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:53] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.70 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:43:57] PROTOCOL: UDP | OSI: Layer 4 - Transport | LAYER: Transport | SRC: 185.15.213.209 -> DST: 10.234.68.57 | ATTACK: DDoS Attack (TCP-SYN Flood) | MALICIOUS: True
+[2026-03-25 09:44:01] PROTOCOL: UDP | OSI: Layer 5 - Session | LAYER: Transport | SRC: 91.67.42.145 -> DST: 10.234.68.57 | ATTACK: Backdoor (C2 Trojan Call) | MALICIOUS: True
+[2026-03-25 09:44:05] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.3 -> DST: 192.168.1.8 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:56:11] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 192.168.1.146 -> DST: 192.168.1.16 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:56:15] PROTOCOL: ICMP | OSI: Layer 3 - Network | LAYER: Network | SRC: 192.168.1.55 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:56:19] PROTOCOL: HTTP | OSI: Layer 3 - Network | LAYER: Application | SRC: 103.15.97.177 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:56:23] PROTOCOL: UDP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 212.60.135.220 -> DST: 10.234.68.57 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:56:27] PROTOCOL: TCP | OSI: Layer 3 - Network | LAYER: Transport | SRC: 103.234.35.209 -> DST: 192.168.1.3 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:56:31] PROTOCOL: HTTPS | OSI: Layer 3 - Network | LAYER: Application | SRC: 77.154.166.154 -> DST: 192.168.1.8 | ATTACK: Normal | MALICIOUS: False
+[2026-03-25 09:56:35] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 103.184.60.126 -> DST: 10.234.68.57 | ATTACK: Brute Force (RDP/SSH) | MALICIOUS: True
+[2026-03-25 09:56:39] PROTOCOL: HTTP | OSI: Layer 7 - Application | LAYER: Application | SRC: 103.111.35.116 -> DST: 10.234.68.57 | ATTACK: Web Attack (XSS Injection) | MALICIOUS: True
+[2026-03-25 09:56:43] PROTOCOL: HTTPS | OSI: Layer 6 - Presentation | LAYER: Application | SRC: 185.226.76.150 -> DST: 10.234.68.57 | ATTACK: Exploit (Remote Code Execution) | MALICIOUS: True
